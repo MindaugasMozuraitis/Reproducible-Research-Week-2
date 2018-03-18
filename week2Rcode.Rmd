@@ -77,8 +77,3 @@ mean_steps_per_wpint = aggregate(steps~interval+weekpart, data=imputed, mean)
 library(ggplot2)
 qplot(data=mean_steps_per_wpint, interval, steps, geom="line", facets=weekpart~.)
 ```
-
-library(knitr)
-getwd()
-knit2html("week2Rcode.html") 
-?knit2html

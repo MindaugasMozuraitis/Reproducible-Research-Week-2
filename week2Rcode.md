@@ -123,8 +123,3 @@ qplot(data=mean_steps_per_wpint, interval, steps, geom="line", facets=weekpart~.
 ```
 
 ![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13-1.png)
-
-library(knitr)
-getwd()
-knit2html("week2Rcode.html") 
-?knit2html
